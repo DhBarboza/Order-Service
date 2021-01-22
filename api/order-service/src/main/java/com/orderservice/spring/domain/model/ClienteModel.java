@@ -1,13 +1,11 @@
-package com.devbarboza.orderservice.domain.model;
+package com.orderservice.spring.domain.model;
 
-public class Cliente {
+public class ClienteModel {
 	
 	private Long id;
 	private String nome;
 	private String email;
 	private String telefone;
-	
-	
 	
 	public Long getId() {
 		return id;
@@ -33,5 +31,4 @@ public class Cliente {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-
 }

@@ -1,13 +1,13 @@
-package com.devbarboza.orderservice;
+package com.orderservice.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrderServiceApiApplication {
+public class OrderServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrderServiceApiApplication.class, args);
+		SpringApplication.run(OrderServiceApplication.class, args);
 	}
 
 }
